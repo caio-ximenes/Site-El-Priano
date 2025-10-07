@@ -1,47 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El priano</title>
+    <title>El Priano</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link href="estilo.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
 <body>
     <header class="header">
-        <section>
-            <a><img src="castelo logo.png" alt="castelo desenhado no modelo de ilustração do século 16" id="iamgem_topo"></a>
-            <nav class="navbar">
-                <a href="gfdg">CARDÁPIO</a>
-                <a href="gdg">ONDE ESTAMOS</a>
-                <a href="gfdgd">HISTÓRIA</a>
-                <a href="dgdfg">CONTATO</a>
-            </nav>
-        </section>    
-    </header>
-    <main class="main">
-        <div class="div_img">
-            <h2>Da nonna para o mundo...</h2>
-            <h4>A verdadeira cozinha italiana</h4>
-            <a href="hfjeh" id="landpage">-> Confira nossos pratos</a>
-        </div>
 
+        <a href="index.html" class="header header__logo">
+            <img  class="header__logo" src="castelo logo.png" alt="classic hand-drawn castle">
+        </a>
+
+        <nav class="header__nav">
+            <a class="header__a" href="menu.html">Menu</a>
+            <a class="header__a" href="reservations.html">Reservations</a>
+            <a class="header__a" href="about.html">About</a>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <section class="main__hero">
+            <h1 class="hero__h1">
+                Unforgettable experiences, straight from Nonna's cookbook
+            </h1>
+        </section class="main__hero">
+
+        <section class="main__section-welcome">
+            <img src="chef com a nonna.png" alt="A 40's years old chef with your inspiration, his nonna" class="main__img">
+            <h2 class="main__h2">Welcome to El Priano</h2>
+            <p class="main__p">Experience the warmth and flavors of Italy at El Priano, where every dish is a celebration of tradition and taste. Our family-owned restaurant invites you to savor authentic Italian cuisine crafted with love and the finest ingredients. From classic pasta dishes to wood-fired pizzas, each meal is a journey to the heart of Italy. Join us for an unforgettable dining experience that feels like home.</p>
+        </section>
+
+        <section class="main__section-menu">
+            <h2>
+                Menu
+            </h2>
+            <p class="main__p">
+                Discover how the fresh ingredients and tradicional recipes can bring you to a cozy moment in a tradicional family meal.
+            </p>
+            <a href="www.thesiteoffmenu.com" class="main__menu-link">
+                Go to the menu site
+            </a>
+
+        </section>
+
+        <section>
+            <h2>
+                Reservations
+            </h2>
+            <p>
+                Book your table in advance to ensure a cozy spot at our family table. We look forward to welcoming you!
+            </p>
+            <form>
+                <label>
+                    Name:
+                    <input type="text" name="name">
+                </label>
+
+                <label>
+                    Phone Number:
+                    <input type="number" name="text">
+                </label>
+            </form>
+        </section>
+        
     </main>
-    <footer>
-        <!-- <img src="castelo logo.png" alt="castelo desenhado no modelo de ilustração do século 16">
-        <nav>
-            <ul>
-                <li>CARDÁPIO</li>
-                <li>ONDE ESTAMOS</li>
-                <li>HISTÓRIA</li>
-                <li>CONTATO</li>
-            </ul>
-            <section>
-                © Copyright 2025 - El Priano - Todos os direitos reservados El Priano Pizzeria
-            </section>
-        </nav> -->
-    </footer>
+
+    <footer class="footer"></footer>
 </body>
 </html>
